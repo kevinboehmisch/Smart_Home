@@ -1,0 +1,18 @@
+# Node.js Abhängigkeiten
+node_modules/
+package-lock.json
+
+# Docker-Dateien (optional, falls du keine Container-Images in Git speichern willst)
+docker-compose.override.yml
+*.log
+*.pid
+
+# Umgebungsvariablen (sensible Daten nicht in Git hochladen!)
+.env
+
+# System-Dateien von Windows/macOS
+.DS_Store
+Thumbs.db
+
+# VS Code Arbeitsbereich-Einstellungen
+.vscode/
